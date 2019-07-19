@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : AVRUSB500.brd                                 )
+(    Software Version : 16.6S034                                      )
+(    Date/Time        : Fri Jul 19 10:29:58 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	.
+	symbols
+	..
+	../symbols
+	c:/Users/user/Desktop/workspace/avrusb500/pcb/symbols
+	C:/Users/user/Downloads/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols
+	C:/Users/user/Downloads/vscode_orcad/cdns/cdns/share/pcb/allegrolib/symbols
+	C:/USERS/USER/DESKTOP/WORKSPACE/PCB_LIE/PSM/
+
+
+All Symbols Found
+
+Total symbols placed:      33 out of 34
+
+
+Symbol Found:  Y1	- C:/Users/user/Desktop/workspace/avrusb500/symbols/rad450x200ls300031.psm

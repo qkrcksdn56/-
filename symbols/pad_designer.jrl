@@ -1,0 +1,43 @@
+\t (00:37:31) pad_designer 16.6 S032 (v16-6-112CK) Windows 32
+\t (00:37:31)     Journal start - Thu Jul 18 12:30:44 2019
+\t (00:37:31)         Host=USER-PC User=user Pid=2732 CPUs=4
+\t (00:37:31) CmdLine= C:\Users\user\Downloads\vscode_orcad\cdns\cdns\tools\pcb\bin\pad_designer.exe
+\t (00:37:31) 
+\i (00:37:34) FORM padedit geometry Square 
+\i (00:37:35) FORM padedit geometry Rectangle 
+\i (00:37:47) FORM padedit height 1.7 
+\i (00:37:52) FORM padedit grid rpopup begin_layer Copy 
+\i (00:37:53) FORM padedit grid rpopup begin_layer 'Copy to all' 
+\i (00:37:55) setwindow form.padcopy
+\i (00:37:55) FORM padcopy pse_copy_soldermask YES 
+\i (00:37:55) FORM padcopy pse_copy_pastemask YES 
+\i (00:37:56) FORM padcopy pse_copy_done  
+\i (00:37:58) setwindow form.padedit
+\i (00:37:58) FORM padedit grid row soldermask_bottom 
+\i (00:37:59) FORM padedit geometry Null 
+\i (00:38:00) FORM padedit grid row pastemask_bottom 
+\i (00:38:01) FORM padedit geometry Null 
+\i (00:38:03) pse_save_as 
+\i (00:38:04) fillin yes 
+\i (00:38:09) fillin "micro_usb_gnd.pad"
+\i (00:38:18) FORM padedit grid row begin_layer 
+\i (00:38:22) FORM padedit width 0.4 
+\i (00:38:25) FORM padedit grid rpopup begin_layer Copy 
+\i (00:38:26) FORM padedit grid rpopup begin_layer 'Copy to all' 
+\i (00:38:27) setwindow form.padcopy
+\i (00:38:27) FORM padcopy pse_copy_soldermask YES 
+\i (00:38:28) FORM padcopy pse_copy_pastemask YES 
+\i (00:38:28) FORM padcopy pse_copy_done  
+\i (00:38:29) setwindow form.padedit
+\i (00:38:29) FORM padedit grid row soldermask_bottom 
+\i (00:38:31) FORM padedit geometry Null 
+\i (00:38:32) FORM padedit grid row pastemask_bottom 
+\i (00:38:33) FORM padedit geometry Null 
+\i (00:38:35) pse_save_as 
+\i (00:38:39) fillin yes 
+\i (00:38:45) fillin "micro_usb_elec.pad"
+\i (00:38:49) pse_open 
+\i (00:38:51) fillin "micro_usb_mico.pad"
+\i (00:39:04) FORM padedit parameters  
+\i (00:39:16) pse_exit
+\t (00:39:16)     Journal end - Thu Jul 18 12:32:29 2019
