@@ -1,14 +1,14 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Jul-18-2019 at 15:15:56 }
+{ Using PSTWRITER 17.2.0 d001Jul-29-2019 at 11:56:56 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='AVRUSB500';
- POST_TIME='Apr 28 2014 16:45:46';
+ POST_TIME='Mar  2 2016 00:37:24';
  SOURCE_TOOL='CAPTURE_WRITER';
 END_DIRECTIVES;
 
 PART_NAME
- C1 'CAPACITOR NON-POL_CPCYL1D225LS1':;
+ C1 'CAPACITOR NON-POL_SML2015_47NF_':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS47757@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
@@ -18,7 +18,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C10 'CAPACITOR NON-POL_CPCYL1D225L_1':;
+ C10 'CAPACITOR NON-POL_SML2015_22NF_':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS8995@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
@@ -28,7 +28,27 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C2 'CAPACITOR NON-POL_CPCYL1D225L_2':;
+ C13 'CAPACITOR NON-POL_CPCYL1D225LS1':;
+
+SECTION_NUMBER 1
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102427@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102427@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102427@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAPACITOR NON-POL_CPCYL1D225LS1':;
+
+SECTION_NUMBER 1
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102663@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102663@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102663@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAPACITOR NON-POL_SML2015_27PF_':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS41064@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
@@ -38,7 +58,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C3 'CAPACITOR NON-POL_CPCYL1D225L_2':;
+ C3 'CAPACITOR NON-POL_SML2015_27PF_':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS41048@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
@@ -48,7 +68,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C4 'CAPACITOR NON-POL_CPCYL1D225LS1':;
+ C4 'CAPACITOR NON-POL_SML2015_47N_1':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS3134@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
@@ -58,7 +78,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C5 'CAPACITOR NON-POL_CPCYL1D225L_3':;
+ C5 'CAPACITOR NON-POL_CPCYL1D225L_1':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS617@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
@@ -78,27 +98,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C7 'CAPACITOR NON-POL_CPCYL1D225L_3':;
-
-SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS13880@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins13880@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins13880@discrete.\capacitor non-pol.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C8 'CAPACITOR NON-POL_CPCYL1D225L_3':;
-
-SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS13979@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins13979@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins13979@discrete.\capacitor non-pol.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C9 'CAPACITOR NON-POL_CPCYL1D225L_3':;
+ C9 'CAPACITOR NON-POL_CPCYL1D225L_1':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS633@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
@@ -108,22 +108,22 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- D1 'LED_CYLD250LS125031_LED_':;
+ D3 'LED_CYLD250LS125031_LED_':;
 
 SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS20152@DISCRETE.LED.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins20152@discrete.\led.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins20152@discrete.\led.normal\(chips)',
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102387@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102387@discrete.\led.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102387@discrete.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- IC1 'ATMEGA8-DIL28_1_QUAD80M32WG900_':;
+ IC3 'ATMEGA8-DIL28_1_QUAD80M32WG900_':;
 
 SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS78@AVRUSB500.ATMEGA8-DIL28_1.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins78@avrusb500.\atmega8-dil28_1.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins78@avrusb500.\atmega8-dil28_1.normal\(chips)',
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102225@AVRUSB500.ATMEGA8-DIL28_1.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102225@avrusb500.\atmega8-dil28_1.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102225@avrusb500.\atmega8-dil28_1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -148,27 +148,27 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- J3 'CON5_BLKCON100VHTM1SQSW1005_AVR':;
+ J7 'CON5_BLKCON100VHTM1SQSW1005_AVR':;
 
 SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS25716@CONNECTOR.CON5.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins25716@connector.\con5.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins25716@connector.\con5.normal\(chips)',
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102531@CONNECTOR.CON5.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102531@connector.\con5.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102531@connector.\con5.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- J4 'CON5_BLKCON100VHTM1SQSW1005_FIR':;
+ J8 'CON5_BLKCON100VHTM1SQSW1005_FIR':;
 
 SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS30361@CONNECTOR.CON5.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins30361@connector.\con5.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins30361@connector.\con5.normal\(chips)',
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102807@CONNECTOR.CON5.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102807@connector.\con5.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102807@connector.\con5.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R1 'R_AX400X100031_470_SMDRES':;
+ R1 'R_AX400X100031_470_SML2015':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS50936@DISCRETE.R.NORMAL(CHIPS)':
@@ -178,47 +178,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R10 'R_AX400X100031_470_SMDRES':;
-
-SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS19619@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins19619@discrete.\r.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins19619@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R11 'R_AX400X100031_1K_SMDRES':;
-
-SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS22446@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins22446@discrete.\r.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins22446@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R12 'R_AX400X100031_220_SMDRES':;
-
-SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS22462@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins22462@discrete.\r.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins22462@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R13 'R_AX400X100031_1K_SMDRES':;
-
-SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS22478@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins22478@discrete.\r.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins22478@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R14 'R_AX400X100031_220_SMDRES':;
+ R14 'R_AX400X100031_220_SML2015':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS6725@DISCRETE.R.NORMAL(CHIPS)':
@@ -228,17 +188,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R15 'R_AX400X100031_220_SMDRES':;
-
-SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS22494@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins22494@discrete.\r.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins22494@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R2 'R_AX400X100031_220_SMDRES':;
+ R2 'R_AX400X100031_220_SML2015':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS6023@DISCRETE.R.NORMAL(CHIPS)':
@@ -248,7 +198,67 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R3 'R_AX400X100031_220_SMDRES':;
+ R22 'R_AX400X100031_10K_SML2015':;
+
+SECTION_NUMBER 1
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102209@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102209@discrete.\r.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102209@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'R_AX400X100031_470_SML2015':;
+
+SECTION_NUMBER 1
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102403@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102403@discrete.\r.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102403@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R24 'R_AX400X100031_1K_SML2015':;
+
+SECTION_NUMBER 1
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102491@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102491@discrete.\r.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102491@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'R_AX400X100031_220_SML2015':;
+
+SECTION_NUMBER 1
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102577@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102577@discrete.\r.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102577@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'R_AX400X100031_1K_SML2015':;
+
+SECTION_NUMBER 1
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102699@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102699@discrete.\r.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102699@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R27 'R_AX400X100031_220_SML2015':;
+
+SECTION_NUMBER 1
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102767@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102767@discrete.\r.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102767@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_AX400X100031_220_SML2015':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS6644@DISCRETE.R.NORMAL(CHIPS)':
@@ -258,7 +268,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R4 'R_AX400X100031_220_SMDRES':;
+ R4 'R_AX400X100031_220_SML2015':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS6709@DISCRETE.R.NORMAL(CHIPS)':
@@ -268,7 +278,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R5 'R_AX400X100031_27_SMDRES':;
+ R5 'R_AX400X100031_27_SML2015':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS1583@DISCRETE.R.NORMAL(CHIPS)':
@@ -278,7 +288,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R6 'R_AX400X100031_27_SMDRES':;
+ R6 'R_AX400X100031_27_SML2015':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS1551@DISCRETE.R.NORMAL(CHIPS)':
@@ -288,7 +298,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R7 'R_AX400X100031_1.5K_SMDRES':;
+ R7 'R_AX400X100031_1.5K_SML2015':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS4349@DISCRETE.R.NORMAL(CHIPS)':
@@ -298,22 +308,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R8 'R_AX400X100031_2.2_SMDRES':;
+ R8 'R_AX400X100031_2.2_SML2015':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS2262@DISCRETE.R.NORMAL(CHIPS)':
  C_PATH='@avrusb500.schematic1(sch_1):ins2262@discrete.\r.normal\(chips)',
  P_PATH='@avrusb500.schematic1(sch_1):page1_ins2262@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R9 'R_AX400X100031_10K_SMDRES':;
-
-SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS17901@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins17901@discrete.\r.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins17901@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -328,22 +328,22 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- Y1 'ZTA_RAD450X200LS300031_3.6864MH':;
-
-SECTION_NUMBER 1
- '@AVRUSB500.SCHEMATIC1(SCH_1):INS14668@DISCRETE.ZTA.NORMAL(CHIPS)':
- C_PATH='@avrusb500.schematic1(sch_1):ins14668@discrete.\zta.normal\(chips)',
- P_PATH='@avrusb500.schematic1(sch_1):page1_ins14668@discrete.\zta.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
  Y2 'ZTA_RAD450X200LS300031_6MHZ_':;
 
 SECTION_NUMBER 1
  '@AVRUSB500.SCHEMATIC1(SCH_1):INS41080@DISCRETE.ZTA.NORMAL(CHIPS)':
  C_PATH='@avrusb500.schematic1(sch_1):ins41080@discrete.\zta.normal\(chips)',
  P_PATH='@avrusb500.schematic1(sch_1):page1_ins41080@discrete.\zta.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y4 'ZTA_RAD450X200LS300031_3.6864MH':;
+
+SECTION_NUMBER 1
+ '@AVRUSB500.SCHEMATIC1(SCH_1):INS102553@DISCRETE.ZTA.NORMAL(CHIPS)':
+ C_PATH='@avrusb500.schematic1(sch_1):ins102553@discrete.\zta.normal\(chips)',
+ P_PATH='@avrusb500.schematic1(sch_1):page1_ins102553@discrete.\zta.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

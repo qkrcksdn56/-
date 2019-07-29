@@ -1,5 +1,37 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jul-18-2019 at 15:17:56}
+{ Using PSTWRITER 17.2.0 d001Jul-29-2019 at 12:00:41}
+primitive 'CAPACITOR NON-POL_SML2015_47NF_';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='SML2015';
+    VALUE='47nF';
+    ALT_SYMBOLS='(SML2015)';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR NON-POL_SML2015_22NF_';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='SML2015';
+    VALUE='22nF';
+    ALT_SYMBOLS='(SML2015)';
+  end_body;
+end_primitive;
 primitive 'CAPACITOR NON-POL_CPCYL1D225LS1';
   pin
     '1':
@@ -12,43 +44,43 @@ primitive 'CAPACITOR NON-POL_CPCYL1D225LS1';
   body
     PART_NAME='CAPACITOR NON-POL';
     JEDEC_TYPE='CPCYL1D225LS100031';
+    VALUE='100nF';
+    ALT_SYMBOLS='(SML2015)';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR NON-POL_SML2015_27PF_';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='SML2015';
+    VALUE='27pF';
+    ALT_SYMBOLS='(SML2015)';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR NON-POL_SML2015_47N_1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='SML2015';
     VALUE='47nF';
     ALT_SYMBOLS='(SMDCAP)';
   end_body;
 end_primitive;
 primitive 'CAPACITOR NON-POL_CPCYL1D225L_1';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAPACITOR NON-POL';
-    JEDEC_TYPE='CPCYL1D225LS100031';
-    VALUE='22nF';
-    ALT_SYMBOLS='(SMDCAP)';
-  end_body;
-end_primitive;
-primitive 'CAPACITOR NON-POL_CPCYL1D225L_2';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAPACITOR NON-POL';
-    JEDEC_TYPE='CPCYL1D225LS100031';
-    VALUE='27pF';
-    ALT_SYMBOLS='(SMDCAP)';
-  end_body;
-end_primitive;
-primitive 'CAPACITOR NON-POL_CPCYL1D225L_3';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -342,7 +374,7 @@ primitive 'CON5_BLKCON100VHTM1SQSW1005_FIR';
     VALUE='firmware_in';
   end_body;
 end_primitive;
-primitive 'R_AX400X100031_470_SMDRES';
+primitive 'R_AX400X100031_470_SML2015';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -355,26 +387,10 @@ primitive 'R_AX400X100031_470_SMDRES';
     PART_NAME='R';
     JEDEC_TYPE='AX400X100031';
     VALUE='470';
-    ALT_SYMBOLS='(SMDRES)';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
-primitive 'R_AX400X100031_1K_SMDRES';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='AX400X100031';
-    VALUE='1k';
-    ALT_SYMBOLS='(SMDRES)';
-  end_body;
-end_primitive;
-primitive 'R_AX400X100031_220_SMDRES';
+primitive 'R_AX400X100031_220_SML2015';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -387,58 +403,10 @@ primitive 'R_AX400X100031_220_SMDRES';
     PART_NAME='R';
     JEDEC_TYPE='AX400X100031';
     VALUE='220';
-    ALT_SYMBOLS='(SMDRES)';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
-primitive 'R_AX400X100031_27_SMDRES';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='AX400X100031';
-    VALUE='27';
-    ALT_SYMBOLS='(SMDRES)';
-  end_body;
-end_primitive;
-primitive 'R_AX400X100031_1.5K_SMDRES';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='AX400X100031';
-    VALUE='1.5k';
-    ALT_SYMBOLS='(SMDRES)';
-  end_body;
-end_primitive;
-primitive 'R_AX400X100031_2.2_SMDRES';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='AX400X100031';
-    VALUE='2.2';
-    ALT_SYMBOLS='(SMDRES)';
-  end_body;
-end_primitive;
-primitive 'R_AX400X100031_10K_SMDRES';
+primitive 'R_AX400X100031_10K_SML2015';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -451,7 +419,71 @@ primitive 'R_AX400X100031_10K_SMDRES';
     PART_NAME='R';
     JEDEC_TYPE='AX400X100031';
     VALUE='10k';
-    ALT_SYMBOLS='(SMDRES)';
+    ALT_SYMBOLS='(SML2015)';
+  end_body;
+end_primitive;
+primitive 'R_AX400X100031_1K_SML2015';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='AX400X100031';
+    VALUE='1k';
+    ALT_SYMBOLS='(SML2015)';
+  end_body;
+end_primitive;
+primitive 'R_AX400X100031_27_SML2015';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='AX400X100031';
+    VALUE='27';
+    ALT_SYMBOLS='(SML2015)';
+  end_body;
+end_primitive;
+primitive 'R_AX400X100031_1.5K_SML2015';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='AX400X100031';
+    VALUE='1.5k';
+    ALT_SYMBOLS='(SML2015)';
+  end_body;
+end_primitive;
+primitive 'R_AX400X100031_2.2_SML2015';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='AX400X100031';
+    VALUE='2.2';
+    ALT_SYMBOLS='(SML2015)';
   end_body;
 end_primitive;
 primitive 'FT232BM_2_QUAD80M32WG900_FT232B';
@@ -561,21 +593,6 @@ primitive 'FT232BM_2_QUAD80M32WG900_FT232B';
     VALUE='FT232BM';
   end_body;
 end_primitive;
-primitive 'ZTA_RAD450X200LS300031_3.6864MH';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='ZTA';
-    JEDEC_TYPE='rad450x200ls300031';
-    VALUE='3.6864Mhz';
-  end_body;
-end_primitive;
 primitive 'ZTA_RAD450X200LS300031_6MHZ_';
   pin
     '1':
@@ -589,6 +606,21 @@ primitive 'ZTA_RAD450X200LS300031_6MHZ_';
     PART_NAME='ZTA';
     JEDEC_TYPE='rad450x200ls300031';
     VALUE='6Mhz';
+  end_body;
+end_primitive;
+primitive 'ZTA_RAD450X200LS300031_3.6864MH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='ZTA';
+    JEDEC_TYPE='rad450x200ls300031';
+    VALUE='3.6864Mhz';
   end_body;
 end_primitive;
 END.

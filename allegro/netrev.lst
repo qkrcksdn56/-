@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : AVRUSB500.brd                                 )
-(    Software Version : 16.6S034                                      )
-(    Date/Time        : Thu Jul 18 15:22:05 2019                      )
+(    Drawing          : qcw.brd                                       )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Mon Jul 29 12:10:14 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB500\allegro'
 Design Directory:            '.'
-Old design name:             'C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB500/allegro/AVRUSB500.brd'
-New design name:             'C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB500/allegro/AVRUSB500.brd'
+Old design name:             'C:/Users/user/Desktop/workspace/avrusb500/allegro/qcw.brd'
+New design name:             'AVRUSB500.brd'
 
-CmdLine: netrev.exe -y 1 -n -i C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB500\allegro C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB500\allegro\AVRUSB500.brd C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB500\allegro\AVRUSB500.brd
+CmdLine: netrev.exe -y 1 -i C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB500\allegro C:\Users\user\Desktop\workspace\avrusb500\allegro\qcw.brd C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB500\allegro\AVRUSB500.brd
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB500/allegro/pstchip.dat 
-   Finished reading C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB500/allegro/pstchip.dat (00:00:00.03)
+   Finished reading C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB500/allegro/pstchip.dat (00:00:00.04)
 Starting to read C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB500/allegro/pstxprt.dat 
    Finished reading C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB500/allegro/pstxprt.dat (00:00:00.00)
 Starting to read C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB500/allegro/pstxnet.dat 
@@ -38,33 +38,33 @@ Starting to read C:/USERS/USER/DESKTOP/WORKSPACE/AVRUSB500/allegro/pstxnet.dat
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           c:/Users/user/Desktop/dd/pcb/modules 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
 
 PSMPATH =  . 
            symbols 
            .. 
            ../symbols 
-           c:/Users/user/Desktop/dd/pcb/symbols 
-           C:/Users/user/Downloads/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols 
-           C:/Users/user/Downloads/vscode_orcad/cdns/cdns/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            C:/USERS/USER/DESKTOP/WORKSPACE/PCB_LIE/PSM/ 
 
 PADPATH =  . 
            symbols 
            .. 
            ../symbols 
-           c:/Users/user/Desktop/dd/pcb/padstacks 
-           C:/Users/user/Downloads/vscode_orcad/cdns/cdns/share/pcb/pcb_lib/symbols 
-           C:/Users/user/Downloads/vscode_orcad/cdns/cdns/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            C:/USERS/USER/DESKTOP/WORKSPACE/PCB_LIE/psm/ 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Jul 18 15:22:05 2019
+netrev run on Jul 29 12:10:14 2019
    DESIGN NAME : 'AVRUSB500'
-   PACKAGING ON Apr 28 2014 16:45:46
+   PACKAGING ON Mar  2 2016 00:37:24
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -87,6 +87,6 @@ netrev run on Jul 18 15:22:05 2019
  No oversight detected
  No warning detected
 
-cpu time      0:00:37
+cpu time      0:00:51
 elapsed time  0:00:00
 

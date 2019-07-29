@@ -42,7 +42,11 @@
     (width_start "80")
     (width_End "80")
     (IREFReportFile "C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB500\AVRUSB500.csv")
-    (IREFViewOutput "0"))
+    (IREFViewOutput "0")
+    ("Allegro Netlist Input Board File"
+       "C:\Users\user\Desktop\workspace\avrusb500\allegro\qcw.brd")
+    ("Allegro Setup Configuration File"
+       "C:\Cadence\SPB_17.2\tools\capture\allegro.cfg"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -81,22 +85,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 1740 150 722")
-        (Scroll "-215 0")
-        (Zoom "95")
+        (Placement "44 0 1 -1 -1 -8 -30 125 1694 125 676")
+        (Scroll "-281 0")
+        (Zoom "82")
         (Occurrence "/"))
       (Path "C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB500\AVRUSB500.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 1719 150 701")
-        (Scroll "-236 0")
-        (Zoom "108")
-        (Occurrence "/"))
-      (Path "C:\USERS\USER\DESKTOP\WORKSPACE\AVRUSB500\AVRUSB500.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE2")))
+      (Page "PAGE1")))
   (ISPCBBASICLICENSE "false")
   (MPSSessionName "user"))
